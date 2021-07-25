@@ -5,7 +5,9 @@
 # Blog: paulosantanna.com
 # Date: 22/07/2021
 # ---------------------------------------------------------------------------------------------------------------------
+# Lists existing repositories on Veeam Backup & Replication server
 Get-VBRBackupRepository
 $name = Read-Host 'Enter the repository name'
 Write-Host "The repository will be rescanned: " $name  -ForegroundColor Yellow
+# Rescan the selected repository
 Sync-VBRBackupRepository -Repository $Name
