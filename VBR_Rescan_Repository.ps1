@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------------------------------------------------------
 # Script: VBR_Rescan_Repository.ps1 - Script to rescan VBR backup repository
 # Contact: Paulo Roberto Sant´anna Cardoso (contato@paulosantanna.com)
-# Compatibilidade: Veeam Backup Replication v10; v11
+# Compatibility: Veeam Backup Replication v10; v11
 # Blog: paulosantanna.com
 # Date: 22/07/2021
 # ---------------------------------------------------------------------------------------------------------------------
